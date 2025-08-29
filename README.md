@@ -28,8 +28,8 @@ bash blast_tools/blast_extract_flanks.sh
 ```
 
 ## Author
-Jennifer Molinet
-Instituto de Ciencias Aplicadas
+Jennifer Molinet-
+Instituto de Ciencias Aplicadas-
 Universidad Autónoma de Chile
 
 
