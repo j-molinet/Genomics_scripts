@@ -17,6 +17,7 @@ Most scripts rely on tools available via **Bioconda**. You can create a conda en
 ```bash
 conda create -n genomics -c bioconda blast samtools seqkit bcftools control-freec
 conda activate genomics
+```
 
 ## Usage
 Each folder contains scripts with usage examples in their local README.md.
@@ -24,6 +25,7 @@ For example, to run BLAST and extract a gene with ±1 kb flanking regions:
 
 ```bash
 bash blast_tools/blast_extract_flanks.sh
+```
 
 ## Author
 Jennifer Molinet
