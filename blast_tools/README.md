@@ -78,5 +78,15 @@ Outputs:
 - SJ_hit.fasta
 - SJ_flank.fasta
 
+## Example content of resultados_todos.txt
+
+```
+genome  qseqid  sseqid   pident  length  mismatch  gapopen  qstart  qend  sstart  send   evalue    bitscore
+SA      geneX   contig1  99.8    1000    2         0        1       1000  2000    3000   1e-100    500
+SCH     geneX   contig5  98.5    990     3         0        1       990   15000   15990  2e-90     480
+SJ      geneX   contig2  97.0    950     5         1        10      960   8000    8950   1e-80     450
+```
+
+
 ## Author
 Jennifer Molinet- Instituto de Ciencias Aplicadas- Universidad Autónoma de Chile
