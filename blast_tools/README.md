@@ -17,3 +17,7 @@ Install dependencies with **conda**:
 conda create -n blast_env -c bioconda blast samtools seqkit
 conda activate blast_env
 ```
+
+- BLAST+ → for sequence alignment (blastn, makeblastdb).
+- samtools → to extract sequences from the genome FASTA by coordinates.
+- seqkit → to reverse-complement sequences when hits are found on the minus strand.
